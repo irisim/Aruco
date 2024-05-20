@@ -140,7 +140,10 @@ def main():
                 choice = verify_int("Enter your choice: ")
                 if choice == 1:
                     print(marker_ids)
-                if choice == 3:
+                elif choice == 2:
+                    choice_ID = verify_int("Enter index of ID: ")
+                    calculations(tvecs, rvecs, choice_ID)
+                elif choice == 3:
                     break
 
             # If "q" is pressed on the keyboard,

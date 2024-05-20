@@ -17,7 +17,7 @@ def verify_int(prompt):
 def display_menu():
     print("Select the threshold to alter:")
     print("1 - Show present ID list")
-    print("2 - Show ...")
+    print("2 - Show calculations")
     print("3 - Exit")
 
 def euler_from_quaternion(x, y, z, w):
